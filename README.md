@@ -33,11 +33,48 @@ DB, OS, 네트워크, 알고리즘, 자료구조 스터디
 <summary>:white_check_mark: PR 규칙 :white_check_mark: </summary>
 <div markdown="1">
     <ul>
-           <li>매주 <code>week/1-본인이름</code> 형태로 브랜치 파서 담당 파트 내용 올리고 PR 올리기 (PR 제목은 브랜치 이름으로 함) </li>
+           <li>매주 <code>week/1-닉네임</code> 형태로 브랜치 파서 담당 파트 내용 올리고 PR 올리기 (PR 제목은 브랜치 이름으로 함) </li>
            <li>담당 파트 내용은 해당하는 과목 디렉토리 아래에 <code>주제.md</code> 형식으로 올리기</li>
     </ul>
 </div>
 </details>
+
+<details>
+<summary>:raising_hand: 팀원 :raising_hand:</summary>
+<div markdown="1">
+    <table>
+  <thead align="center">
+    <tr>
+      <td><b>김담원</b></td>
+      <td><b>김성겸</b></td>
+      <td><b>신예진</b></td>
+      <td><b>이수진</b></td>
+      <td><b>이지은</b></td>
+      <td><b>추서연</b></td>
+    </tr>
+  </thead>
+  <tbody align="center">
+    <tr>
+      <td><img src="https://avatars.githubusercontent.com/u/106096303?v=4" width=200px alt="본인 닉네임 넣어주세요"></a></td>
+      <td><img src="https://avatars.githubusercontent.com/u/76910498?v=4" width=200px alt="본인 닉네임 넣어주세요"></a></td>
+      <td><img src="https://avatars.githubusercontent.com/u/78442839?v=4" width=200px alt="본인 닉네임 넣어주세요"></a></td>
+      <td><img src="https://avatars.githubusercontent.com/u/71487608?v=4" width=200px alt="본인 닉네임 넣어주세요"></a></td>
+      <td><img src="https://avatars.githubusercontent.com/u/97334255?v=4" width=200px alt="본인 닉네임 넣어주세요"></a></td>
+      <td><img src="https://avatars.githubusercontent.com/u/83302344?v=4" width=200px alt="Choo"></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/DamWon-KIM">닉네임</a></td>
+      <td><a href="https://github.com/ksk0605">닉네임</a></td>
+      <td><a href="https://github.com/yesjjin99">닉네임</a></td>
+      <td><a href="https://github.com/ssssujini99">닉네임</a></td>
+      <td><a href="https://github.com/ezeun">닉네임</a></td>
+      <td><a href="https://github.com/ChooSeoyeon">Choo</a></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</details>
+
 
 ## :computer: OS
 - 프로세스와 스레드의 차이(Process vs Thread)
