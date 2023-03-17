@@ -2,7 +2,7 @@
 DB, OS, 네트워크, 알고리즘, 자료구조 스터디
 
 <details>
-<summary>:fire: 스터디 목표 :fire:</summary>
+<summary>:fire: 스터디 목표</summary>
 <div markdown="1">
     <ul>
            <li>스터디원 전원이 매주 6가지 키워드에 대해 공부해오고, 그 중 1가지 키워드씩 발표를 진행함으로써 CS 지식을 복습한다.</li>
@@ -12,7 +12,7 @@ DB, OS, 네트워크, 알고리즘, 자료구조 스터디
 </details>
 
 <details>
-<summary>:star2: 스터디 방식 :star2:</summary>
+<summary>:star2: 스터디 방식</summary>
 <div markdown="1">
     <ul>
            <li>매주 토요일 24시까지 : git에 담당 파트 내용 올리고 PR</li>
@@ -30,7 +30,7 @@ DB, OS, 네트워크, 알고리즘, 자료구조 스터디
 </details>
 
 <details>
-<summary>:white_check_mark: PR 규칙 :white_check_mark: </summary>
+<summary>:white_check_mark: PR 규칙</summary>
 <div markdown="1">
     <ul>
            <li>매주 <code>Week/1-닉네임</code> 형태로 브랜치 파서 담당 파트 내용 올리고 PR 올리기 (PR 제목은 브랜치 이름으로 함) </li>
@@ -40,7 +40,7 @@ DB, OS, 네트워크, 알고리즘, 자료구조 스터디
 </details>
 
 <details>
-<summary>:raising_hand: 팀원 :raising_hand:</summary>
+<summary>:raising_hand: 팀원</summary>
 <div markdown="1">
     <table>
   <thead align="center">
@@ -75,6 +75,16 @@ DB, OS, 네트워크, 알고리즘, 자료구조 스터디
 </div>
 </details>
 
+<details>
+<summary> 레퍼런스 </summary>
+<div markdown="1">
+    <ul>
+           <li>https://github.com/shinhee-rebecca</li>
+           <li>https://github.com/gyoogle/tech-interview-for-developer</li>
+           <li>https://github.com/WeareSoft/tech-interview</li>
+    </ul>
+</div>
+</details>
 
 ## :computer: OS
 - 프로세스와 스레드의 차이(Process vs Thread)
@@ -87,3 +97,4 @@ DB, OS, 네트워크, 알고리즘, 자료구조 스터디
 - 트랜잭션(Transaction)이란
 
 ## :satellite: Network
+
