@@ -79,9 +79,9 @@ DB, OS, 네트워크, 알고리즘, 자료구조 스터디
 <summary> 🔖 레퍼런스 </summary>
 <div markdown="1">
     <ul>
-           <li>https://github.com/shinhee-rebecca</li>
            <li>https://github.com/gyoogle/tech-interview-for-developer</li>
            <li>https://github.com/WeareSoft/tech-interview</li>
+           <li>https://github.com/shinhee-rebecca/2022-cs-study</li>
     </ul>
 </div>
 </details>
