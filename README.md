@@ -12,7 +12,7 @@ DB, OS, 네트워크, 알고리즘, 자료구조 스터디
 </details>
 
 <details>
-<summary>:star2: 스터디 방식</summary>
+<summary>:star: 스터디 방식</summary>
 <div markdown="1">
     <ul>
            <li>매주 토요일 24시까지 : git에 담당 파트 내용 올리고 PR</li>
@@ -76,7 +76,7 @@ DB, OS, 네트워크, 알고리즘, 자료구조 스터디
 </details>
 
 <details>
-<summary> 레퍼런스 </summary>
+<summary> 🔖 레퍼런스 </summary>
 <div markdown="1">
     <ul>
            <li>https://github.com/shinhee-rebecca</li>
