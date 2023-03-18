@@ -27,6 +27,6 @@
 
 - https://developer-ellen.tistory.com/205
 
-- https://developer-ellen.tistory.com/205#%EC%25-A%25A-%EB%25A-%25--%EB%25--%25-C%25--%EC%25--%25--%EC%25A-%25---Thread-Safety-
+- https://gompangs.tistory.com/entry/OS-Thread-Safe%EB%9E%80
 
 - https://github.com/WeareSoft/tech-interview/blob/master/contents/os.md#thread-safe
