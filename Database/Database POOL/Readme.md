@@ -26,7 +26,7 @@ Connection pool은 매번 새로운 접속을 통해서 쿼리를 통해 DB에�
   = 연결이 끝난 Connection을 재사용함으로써 새로 객체를 만드는 비용을 줄일 수 있다
 * DB 접속 모듈을 공통화하여 DB 서버의 환경이 바뀔 경우 쉬운 유지 보수가 가능
 * DB 접속 설정 객체를 미리 만들어 연결하여 메모리 상에 등록해 놓기 때문에 불필요한 작업(커넥션 생성, 삭제)이 사라지므로 클라이언트가 빠르게 DB에 접속이 가능하다.
-
+![DB_connection.png](DB_connection.png)
 
 ### Connection Pool이 커지면 성능은 무조건 좋아질까?
 그렇지 않다. Connection의 주체는 Thread이므로 Thread와 함께 고려해야 한다.
