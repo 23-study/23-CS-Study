@@ -69,7 +69,7 @@ DB, OS, 네트워크, 알고리즘, 자료구조 스터디
     <tr>
       <td><a href="https://github.com/DamWon-KIM">닉네임</a></td>
       <td><a href="https://github.com/ksk0605">닉네임</a></td>
-      <td><a href="https://github.com/yesjjin99">닉네임</a></td>
+      <td><a href="https://github.com/yesjjin99">yesjjin99</a></td>
       <td><a href="https://github.com/ssssujini99">닉네임</a></td>
       <td><a href="https://github.com/ezeun">닉네임</a></td>
       <td><a href="https://github.com/ChooSeoyeon">Choo</a></td>
