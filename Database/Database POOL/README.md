@@ -56,3 +56,4 @@ Connection이 많다는 의미는 데이터베이스 서버가 Thread를 많이 
 [블로그 레퍼런스3](https://velog.io/@ohdowon064/CS-%ED%92%80Pool%EC%9D%B4%EB%9E%80)
 [블로그 레퍼런스4](https://lovestudycom.tistory.com/entry/DB-POOL-%EC%9D%B4%EB%9E%80)
 [블로그 레퍼런스5](https://zzang9ha.tistory.com/376)
+[깃헙 레퍼런스1](https://github.com/WeareSoft/tech-interview/blob/master/contents/db.md#데이터베이스-풀)
