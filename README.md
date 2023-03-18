@@ -1,5 +1,5 @@
 # 2023 기술 면접 스터디
-DB, OS, 네트워크, 알고리즘, 자료구조 스터디
+DB, OS, 네트워크 스터디
 
 <details>
 <summary>:fire: 스터디 목표</summary>
@@ -30,15 +30,22 @@ DB, OS, 네트워크, 알고리즘, 자료구조 스터디
 </details>
 
 <details>
-<summary>:white_check_mark: PR 규칙</summary>
+<summary>:white_check_mark: 스터디 규칙</summary>
 <div markdown="1">
     <ul>
-           <li>매주 <code>Week1-깃헙아이디</code> ex) <code>Week1-ssssujini99</code> 형태로 브랜치 파서 담당 파트 내용 올리고 PR 올리기</li>
-           <li>담당 파트 내용은 해당하는 과목 디렉토리 아래에 <code>주제.md</code> 형식으로 올리기</li>
-    </ul>
-    <ul>
-           <li>PR: (메인 브랜치) <- (본인 브랜치) 방향으로 날리셔야 합니다</li>
-           <li>PR 제목형식: Week#-제목 , 예시: <code>Week1-트랜잭션</code></li>
+           <li>매주 브랜치 파서 아래와 같은 형식으로 담당 파트 내용 올리고 PR 올리기</li>
+            <pre><code>
+Operating System(dir)
+|____README.md (과목당 기본 마크다운 파일)
+|
+|____트랜잭션(dir)
+             |____README.md
+             |____img1.png
+             |____img2.png
+             </code></pre>
+           <li>브랜치명은 <code>Week#-깃헙아이디</code> -> 예시: <code>Week1-ssssujini99</code></li>
+           <li>PR명은 <code>Week#-제목</code> -> 예시: <code>Week1-트랜잭션</code></li>
+           <li>커밋명은 <code>Docs: #주차 과목 - 주제</code> -> 예시: <code>Docs: 1주차 Operating System - 스레드 안전</code></li>
     </ul>
 </div>
 </details>
@@ -59,20 +66,12 @@ DB, OS, 네트워크, 알고리즘, 자료구조 스터디
   </thead>
   <tbody align="center">
     <tr>
-      <td><img src="https://avatars.githubusercontent.com/u/106096303?v=4" width=200px alt="본인 닉네임 넣어주세요"></a></td>
-      <td><img src="https://avatars.githubusercontent.com/u/76910498?v=4" width=200px alt="본인 닉네임 넣어주세요"></a></td>
-      <td><img src="https://avatars.githubusercontent.com/u/78442839?v=4" width=200px alt="본인 닉네임 넣어주세요"></a></td>
-      <td><img src="https://avatars.githubusercontent.com/u/71487608?v=4" width=200px alt="본인 닉네임 넣어주세요"></a></td>
-      <td><img src="https://avatars.githubusercontent.com/u/97334255?v=4" width=200px alt="본인 닉네임 넣어주세요"></a></td>
-      <td><img src="https://avatars.githubusercontent.com/u/83302344?v=4" width=200px alt="Choo"></a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/DamWon-KIM">닉네임</a></td>
-      <td><a href="https://github.com/ksk0605">닉네임</a></td>
-      <td><a href="https://github.com/yesjjin99">yesjjin99</a></td>
-      <td><a href="https://github.com/ssssujini99">닉네임</a></td>
-      <td><a href="https://github.com/ezeun">닉네임</a></td>
-      <td><a href="https://github.com/ChooSeoyeon">Choo</a></td>
+      <td><img src="https://avatars.githubusercontent.com/u/106096303?v=4" width=200px></a></td>
+      <td><img src="https://avatars.githubusercontent.com/u/76910498?v=4" width=200px></a></td>
+      <td><img src="https://avatars.githubusercontent.com/u/78442839?v=4" width=200px></a></td>
+      <td><img src="https://avatars.githubusercontent.com/u/71487608?v=4" width=200px></a></td>
+      <td><img src="https://avatars.githubusercontent.com/u/97334255?v=4" width=200px></a></td>
+      <td><img src="https://avatars.githubusercontent.com/u/83302344?v=4" width=200px></a></td>
     </tr>
   </tbody>
 </table>
