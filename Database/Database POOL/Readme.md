@@ -12,9 +12,16 @@
 ![connection_pool.png](connection_pool.png)
 
 
-### DB POOL의 장점
+### DBCP 의 장점
 
-Connection pool은 매번 새로운 접속을 통해서 쿼리를 통해 DB에서 정보를 가지고 온다. 이는 컴터에게 너무나 큰 무리를 주기 때문에 해당 서버의 cpu점유율을 높이는 직접적인 원인이 될수있다. 그래서 우리는 DB를 제어하기전에 "사용자 지정 갯수만큼 커넥션을 만들어놓고 pool에 넣어놓았다가 필요할때마다 갔다가 쓰고 사용을 다하면 다시 pool에 넣어놓고 사용하는 식"으로 시스템을 효율적으로 운영한다.
+Connection pool은 매번 새로운 접속을 통해서 쿼리를 통해 DB에서 정보를 가지고 온다. 
+이 때 클라이언트와 서버 사이드인 웹 어플리케이션에서, 사용자의 요청에 따라 Connection이 생성된다면 수 많은 사용자가 요청을 했을 때 서버에 과부하가 걸리게 된다
+이는 컴터에게 너무나 큰 무리를 주기 때문에 해당 서버의 cpu점유율을 높이는 직접적인 원인이 될수있다. 
+
+이러한 상황을 예방하기 위해 미리 일정 갯수의 Connection을 만들어 Pool에 저장을 하고, 사용자의 요청이 발생하면 사용자 지정 갯수만큼 Connection을 제공하고 사용자와의 연결이 종료된다면 Pool에 다시 반환하여 보관을 해서 cpu의 점유율을 줄인다
+
+* 서버 다운의 비용적 문제를 해결함
+* 클라이언트가 사용을 마친 후에는 Pool에 다시 Connection 객체를 반환하기 때문에 데이터베이스 접근 요청이 존재하더라도 새로운 Connection 객체를 생성할 필요가 없음
 
 
 
@@ -29,3 +36,4 @@ Connection pool은 매번 새로운 접속을 통해서 쿼리를 통해 DB에�
 [블로그 레퍼런스2](https://steady-coding.tistory.com/564)
 [블로그 레퍼런스3](https://velog.io/@ohdowon064/CS-%ED%92%80Pool%EC%9D%B4%EB%9E%80)
 [블로그 레퍼런스4](https://lovestudycom.tistory.com/entry/DB-POOL-%EC%9D%B4%EB%9E%80)
+[블로그 레퍼런스5](https://zzang9ha.tistory.com/376)
