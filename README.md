@@ -33,8 +33,12 @@ DB, OS, 네트워크, 알고리즘, 자료구조 스터디
 <summary>:white_check_mark: PR 규칙</summary>
 <div markdown="1">
     <ul>
-           <li>매주 <code>Week/1-닉네임</code> 형태로 브랜치 파서 담당 파트 내용 올리고 PR 올리기 (PR 제목은 브랜치 이름으로 함) </li>
+           <li>매주 <code>Week1-깃헙아이디</code> ex) <code>Week1-ssssujini99</code> 형태로 브랜치 파서 담당 파트 내용 올리고 PR 올리기</li>
            <li>담당 파트 내용은 해당하는 과목 디렉토리 아래에 <code>주제.md</code> 형식으로 올리기</li>
+    </ul>
+    <ul>
+           <li>PR: (메인 브랜치) <- (본인 브랜치) 방향으로 날리셔야 합니다</li>
+           <li>PR 제목형식: Week#-제목 , 예시: <code>Week1-트랜잭션</code></li>
     </ul>
 </div>
 </details>
