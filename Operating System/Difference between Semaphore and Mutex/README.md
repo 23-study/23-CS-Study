@@ -17,7 +17,7 @@
 데커와 유사하지만, 상대방 프로세스/스레드에게 진입 기회를 양보하는 것에 차이가 있음
 
 * Decker와 Peterson은 race condition이 발생할 수 있음
-     ![Peterson.jpg](Peterson.jpg)
+    ![Peterson.jpg](Peterson.jpg)
   * 베이커리(Backery) 알고리즘
   * 여러 프로세스/스레드에 대한 처리가 가능한 알고리즘. 가장 작은 수의 번호표를 가지고 있는 프로세스가 임계 구역에 진입
   * 안전하고, 현대적인 멀티스레드 환경에서 적용가능하다
