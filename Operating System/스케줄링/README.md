@@ -34,5 +34,37 @@
 
 
 # 3. 스케줄링 알고리즘의 분류
-### 1) Clock Interrupt 처리 방법에 따라 분류
+### 1) Clock Interrupt 처리 유무에 따라 분류
+- Clock Interrupt
+  - 하드웨어 Clock이 주기적으로 Clock Interrupt를 발생시킴
+  - 매 Clock Interrupt 혹은 K번째 Clock Interrupt마다 스케줄링 결정 이루어짐
+- Nonpreemptive(비선점) 스케줄링 알고리즘 : `Clock Interrupt 처리 X`
+  - 실행 프로세스는 Block되거나 자발적으로 CPU 내놓을 때까지 계속 실행될 수 있음
+  - 수 시간동안 계속 수행해도 강제 중단 안됨
+- Preemptive(선점형) 스케줄링 알고리즘 : `Clock Interrupt 처리 O`
+  - 실행 프로세스는 할당된 시간을 넘지 않는 범위에서 실행됨
+  - 할당된 시간 다 되면 중단되어 Ready 상태로 끌어내려짐
 ### 2) 시스템 환경에 따라 분류
+- 배치(Batch) 시스템
+- 대화식(Interactive) 시스템
+- 실시간(Real time) 시스템
+
+# 4. 배치(Batch) 시스템의 스케줄링 알고리즘
+### 1) 선입선출 (First-Come First-Served)
+### 2) 최단작업우선(Shortest Job First)
+### 3) 최단잔여시간우선(Shortest Remaining Time Next)
+
+# 5. 대화식(Interactive) 시스템의 스케줄링 알고리즘
+### 1) 라운드 로빈 스케줄링(Round-Robin Scheduling)
+### 2) 우선순위 스케줄링(Priority Scheduling)
+### 3) 최단프로세스순번(Shortest Process Next)
+### 4) 보장 스케줄링(Guaranted Scheduling) 
+### 5) 복권 스케줄링(Lottery Scheduling)
+### 6) 공평-몫 스케줄링(Fair-Share Scheduling)
+
+# 6. 실시간(Real time) 시스템에서 스케줄링
+
+# 7. 스레드 스케줄링(Thread Scheduling)
+
+- 출처
+  - 작년 운체 수업 듣고 정리해 둔 것 보고 하나하나 직접 다시 쓰면서 좀 더 보기 편하게 정리해봤어요
