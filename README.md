@@ -90,14 +90,19 @@ Operating System(dir)
 </details>
 
 ## :computer: OS
-- 프로세스와 스레드의 차이(Process vs Thread)
-- 멀티 프로세스 대신 멀티 스레드를 사용하는 이유
-- Thread-safe
+- [프로세스와 스레드의 차이(Process vs Thread)](https://github.com/23-study/23-CS-Study/tree/main/Operating%20System/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%20%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98%20%EC%B0%A8%EC%9D%B4(Process%20vs%20Thread))
+- [멀티 프로세스 대신 멀티 스레드를 사용하는 이유](https://github.com/23-study/23-CS-Study/tree/main/Operating%20System/%EB%A9%80%ED%8B%B0%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20%EB%8C%80%EC%8B%A0%20%EB%A9%80%ED%8B%B0%20%EC%8A%A4%EB%A0%88%EB%93%9C%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0)
+- [스레드 안전(Thread-Safety)](https://github.com/23-study/23-CS-Study/tree/main/Operating%20System/%EC%8A%A4%EB%A0%88%EB%93%9C%20%EC%95%88%EC%A0%84)
+- 동기화 객체의 종류
+- 뮤텍스와 세마포어의 차이
+- 스케줄러
 
 ## :floppy_disk: DB
-- 데이터베이스 풀
-- 정규화(1차 2차 3차 BCNF)
-- 트랜잭션(Transaction)이란
+- [데이터베이스 풀](https://github.com/23-study/23-CS-Study/tree/main/Database/Database%20POOL)
+- [정규화(1차 2차 3차 BCNF)](https://github.com/23-study/23-CS-Study/tree/main/Database/%EC%A0%95%EA%B7%9C%ED%99%94(1%EC%B0%A8%202%EC%B0%A8%203%EC%B0%A8%20BCNF))
+- [트랜잭션](https://github.com/23-study/23-CS-Study/tree/main/Database/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98)
 
 ## :satellite: Network
-
+- OSI 7계층
+- TCP/IP의 개념
+- TCP와 UDP
