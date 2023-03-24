@@ -30,7 +30,7 @@
 * S 스레드 여러개가 있는 모습을 떠올리면 좋을 듯
 * 그래서, 동기화 대상은 여러개
 * 스레드의 수를 제어하고, 스레드 간의 작업 진행을 조정하기 위해 사용한다. Semaphore는 특정 개수의 스레드만이 동시에 특정 코드 영역에 진입할 수 있도록 허용한다. Semaphore는 특정한 자원에 대한 접근을 제어하는 데 사용함
-!(semaphore.jpg)[semaphore.jpg]
+![semaphore.jpg](semaphore.jpg)
 
 procedure P(S)   --> 최초 S값은 1임
     while S=0 do wait  --> S가 0면 1이 될때까지 기다려야 함
