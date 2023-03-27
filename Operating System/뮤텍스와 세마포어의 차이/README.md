@@ -32,17 +32,17 @@
 * 스레드의 수를 제어하고, 스레드 간의 작업 진행을 조정하기 위해 사용한다. Semaphore는 특정 개수의 스레드만이 동시에 특정 코드 영역에 진입할 수 있도록 허용한다. Semaphore는 특정한 자원에 대한 접근을 제어하는 데 사용함
 ![semaphore.jpg](semaphore.jpg)
 
-procedure P(S)   --> 최초 S값은 1임
-    while S=0 do wait  --> S가 0면 1이 될때까지 기다려야 함
-    S := S-1   --> S를 0로 만들어 다른 프로세스가 들어 오지 못하도록 함
+procedure P(S)     --> 최초 S값은 1임<br/>
+    while S=0 do wait    --> S가 0면 1이 될때까지 기다려야 함<br/>
+    S := S-1     --> S를 0로 만들어 다른 프로세스가 들어 오지 못하도록 함<br/>
 end P
-
+<br/><br/>
 --- 임계 구역 ---
 
-procedure V(S) --> 현재상태는 S가 0임
-    S := S+1   --> S를 1로 원위치시켜 해제하는 과정
-end V
-이를 통해, 한 프로세스가 P 혹은 V를 수행하고 있는 동안 프로세스가 인터럽트 당하지 않게 된다. P와 V를 사용하여 임계 구역에 대한 상호배제 구현이 가능하게 되었다.
+procedure V(S)   --> 현재상태는 S가 0임<br/>
+    S := S+1     --> S를 1로 원위치시켜 해제하는 과정<br/>
+end V<br/><br/>
+이를 통해, 한 프로세스가 P 혹은 V를 수행하고 있는 동안 프로세스가 인터럽트 당하지 않게 된다. P와 V를 사용하여 임계 구역에 대한 상호배제 구현이 가능하게 되었다.<br/><br/>
 
 ## References
 [블로그 레퍼런스1](https://gyoogle.dev/blog/computer-science/operating-system/Semaphore%20&%20Mutex.html)
