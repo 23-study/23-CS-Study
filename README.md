@@ -101,8 +101,14 @@ Operating System(dir)
 - [데이터베이스 풀](https://github.com/23-study/23-CS-Study/tree/main/Database/Database%20POOL)
 - [정규화(1차 2차 3차 BCNF)](https://github.com/23-study/23-CS-Study/tree/main/Database/%EC%A0%95%EA%B7%9C%ED%99%94(1%EC%B0%A8%202%EC%B0%A8%203%EC%B0%A8%20BCNF))
 - [트랜잭션](https://github.com/23-study/23-CS-Study/tree/main/Database/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98)
+- 트랜잭션 격리 수준(Transaction Isolation Level)
+- Join
+- SQL injection
 
 ## :satellite: Network
 - [OSI 7계층](https://github.com/23-study/23-CS-Study/tree/main/Network/OSI%207%EA%B3%84%EC%B8%B5)
 - [TCP/IP의 개념](https://github.com/23-study/23-CS-Study/tree/main/Network/TCP/IP%EC%9D%98%20%EA%B0%9C%EB%85%90)
 - [TCP와 UDP](https://github.com/23-study/23-CS-Study/tree/main/Network/TCP%EC%99%80%20UDP)
+- TCP와 UDP의 헤더 분석
+- TCP의 3-way-handshake와 4-way-handshake
+- HTTP와 HTTPS
