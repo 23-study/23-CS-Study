@@ -93,9 +93,9 @@ Operating System(dir)
 - [프로세스와 스레드의 차이(Process vs Thread)](https://github.com/23-study/23-CS-Study/tree/main/Operating%20System/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%20%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98%20%EC%B0%A8%EC%9D%B4(Process%20vs%20Thread))
 - [멀티 프로세스 대신 멀티 스레드를 사용하는 이유](https://github.com/23-study/23-CS-Study/tree/main/Operating%20System/%EB%A9%80%ED%8B%B0%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20%EB%8C%80%EC%8B%A0%20%EB%A9%80%ED%8B%B0%20%EC%8A%A4%EB%A0%88%EB%93%9C%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0)
 - [스레드 안전(Thread-Safety)](https://github.com/23-study/23-CS-Study/tree/main/Operating%20System/%EC%8A%A4%EB%A0%88%EB%93%9C%20%EC%95%88%EC%A0%84)
-- 동기화 객체의 종류
-- 뮤텍스와 세마포어의 차이
-- 스케줄러
+- [동기화 객체의 종류](https://github.com/23-study/23-CS-Study/tree/main/Operating%20System/%EB%8F%99%EA%B8%B0%ED%99%94%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EC%A2%85%EB%A5%98)
+- [뮤텍스와 세마포어의 차이](https://github.com/23-study/23-CS-Study/tree/main/Operating%20System/%EB%AE%A4%ED%85%8D%EC%8A%A4%EC%99%80%20%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4%EC%9D%98%20%EC%B0%A8%EC%9D%B4)
+- [스케줄링](https://github.com/23-study/23-CS-Study/tree/main/Operating%20System/%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81)
 
 ## :floppy_disk: DB
 - [데이터베이스 풀](https://github.com/23-study/23-CS-Study/tree/main/Database/Database%20POOL)
@@ -103,6 +103,6 @@ Operating System(dir)
 - [트랜잭션](https://github.com/23-study/23-CS-Study/tree/main/Database/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98)
 
 ## :satellite: Network
-- OSI 7계층
-- TCP/IP의 개념
-- TCP와 UDP
+- [OSI 7계층](https://github.com/23-study/23-CS-Study/tree/main/Network/OSI%207%EA%B3%84%EC%B8%B5)
+- [TCP/IP의 개념](https://github.com/23-study/23-CS-Study/tree/main/Network/TCP/IP%EC%9D%98%20%EA%B0%9C%EB%85%90)
+- [TCP와 UDP](https://github.com/23-study/23-CS-Study/tree/main/Network/TCP%EC%99%80%20UDP)
