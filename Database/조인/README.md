@@ -31,6 +31,7 @@
 일반적으로 부모-자식 관계나 계층 구조 등에서 사용됩니다.<br/>
 각 조인 종류는 각기 다른 상황에서 사용될 수 있으며, 조건에 따라 적합한 조인을 선택해야 합니다.<br/><br/>
 ![example_inner](example_inner.png)<br/><br/>
+![Left_join](Left_join.png)<br/><br/>
 * 순수 관계 연산자 – 세타 조인(theta join, 𝜽-join)<br/><br/>
 ** 기능<br/>
 • 주어진 조인 조건을 만족하는 두 릴레이션의 모든 투플을 연결하여
