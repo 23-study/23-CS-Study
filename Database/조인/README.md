@@ -7,9 +7,10 @@
 
 ### 조인이란?
 공통 속성을 이용해 릴레이션 R과 S의 투플들을 연결하여 만들어진 새로운 투플들을 반환
-조인의 결과는 Cartesion Product(교차곱)을 수행한 다음 Select를 수행한 것과 같다
+조인의 결과는 Cartesion Product(교차곱)을 수행한 다음 Select를 수행한 것과 같다<br/>
 
 ![SQL_Joins](SQL_Joins.png)
+<br/>
 * 순수 관계 연산자 – 세타 조인(theta join, 𝜽-join)<br/><br/>
 ** 기능<br/>
 • 주어진 조인 조건을 만족하는 두 릴레이션의 모든 투플을 연결하여
