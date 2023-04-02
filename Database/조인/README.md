@@ -55,4 +55,5 @@
 
 ##References
 [블로그 레퍼런스1](https://advenoh.tistory.com/23)
+[블로그 레퍼런스2](https://velog.io/@ragnarok_code/DataBase-%EC%A1%B0%EC%9D%B8Join%EC%9D%B4%EB%9E%80)
 [시나공 정보처리기사]
