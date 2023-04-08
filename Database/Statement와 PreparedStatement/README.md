@@ -97,5 +97,5 @@ ResultSet rst = stmt.executeQuery(sqlstr);
 - - -
 > 👉 참고<br>
 > [[Comporison] PreparedStatement 와 Statement](https://devbox.tistory.com/133) <br>
-> [Statement와 Prepared Statement의 특징](https://iksflow.tistory.com/127)
+> [Statement와 Prepared Statement의 특징](https://iksflow.tistory.com/127) <br>
 > [Statement와 PreparedStatement](https://insight-bgh.tistory.com/494)
