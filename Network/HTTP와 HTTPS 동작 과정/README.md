@@ -10,7 +10,9 @@
   - Client > Server : TCP SYN
   - Server > Client : TCP SYN ACK
   - Client > Server : TCP ACK
+  
    ![http.png](http.png)
+   <br/>
    <br/>
    
 4. 클라이언트(웹 브라우저)가 서버에게 요청한다
@@ -35,7 +37,7 @@
   
   
   ## HTTPS(HyperText Transfer Protocol Secure)
-  ![https.png](https.png)
+  ![https.jpg](https.jpg)
   <br/>
   1. 클라이언트가 HTTPS로 암호화된 페이지를 요청한다
      브라우저마다 지원하는 암호화 알고리즘과 SSL 버전이 다르기 때문에 해당 정보를 전송하고, 클라이언트가 생성한 랜덤 데이터를 전송한다.
