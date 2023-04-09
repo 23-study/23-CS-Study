@@ -5,8 +5,10 @@
 1. 사용자가 웹 브라우저에 URL 주소를 입력한다
 2. DNS 서버에 웹 서버의 호스트 이름을 IP주소로 변경 요청한다
 3. 웹 서버와 TCP 연결을 시도한다
-  * [3way-handshaking](#3way-handshaking)
-  ## 3way-handshaking
+  <details>
+  <summary> 3way-handshaking </summary>
+  <br>
+   3way-handshaking
   - Client > Server : TCP SYN
   - Server > Client : TCP SYN ACK
   - Client > Server : TCP ACK
@@ -14,21 +16,22 @@
    ![http.png](http.png)
    <br/>
    <br/>
+  </details>
+   <br>
+ 4. 클라이언트(웹 브라우저)가 서버에게 요청한다<br/>
+  HTTP Request Message = Request Header + 빈 줄 + Request Body<br/>
+  ** Request Header<br/>
+  * 요청 메소드 + 요청 URI + HTTP 프로토콜 버전<br/>
+  * 요청 라인 : 요청 메소드(GET,POST 등)와 요청 URI(Uniform Resource Identifier)가 포함된다<br/>
+  * 헤더(Header) : 요청 메시지에 대한 추가 정보(쿠키, 클라이언트 정보, 인증 정보 등)가 포함된다<br/>
+  * 본문 : POST 메소드와 같이 본문을 함께 전송할 경우에만 포함된다<br/><br/>
    
-4. 클라이언트(웹 브라우저)가 서버에게 요청한다
-  HTTP Request Message = Request Header + 빈 줄 + Request Body
-  ** Request Header
-  * 요청 메소드 + 요청 URI + HTTP 프로토콜 버전
-  * 요청 라인 : 요청 메소드(GET,POST 등)와 요청 URI(Uniform Resource Identifier)가 포함된다
-  * 헤더(Header) : 요청 메시지에 대한 추가 정보(쿠키, 클라이언트 정보, 인증 정보 등)가 포함된다
-  * 본문 : POST 메소드와 같이 본문을 함께 전송할 경우에만 포함된다
-
-5. 서버는 클라이언트의 요청에 대한 응답(Response)를 보낸다
-   응답은 다음과 같은 요소로 이루어져 있다
+5. 서버는 클라이언트의 요청에 대한 응답(Response)를 보낸다<br/>
+   응답은 다음과 같은 요소로 이루어져 있다<br/>
    
-  * 상태 라인 : 응답 코드(200 OK, 404 Not Found 등)와 프로토콜 버전 정보가 포함된다
-  * 헤더 : 응답 메시지에 대한 추가정보(Content-Type, Content-Length)가 포함된다
-  * 본문 : 요청에 대한 응답 데이터가 포함된다
+  * 상태 라인 : 응답 코드(200 OK, 404 Not Found 등)와 프로토콜 버전 정보가 포함된다<br/>
+  * 헤더 : 응답 메시지에 대한 추가정보(Content-Type, Content-Length)가 포함된다<br/>
+  * 본문 : 요청에 대한 응답 데이터가 포함된다<br/>
 
 6. 클라이언트는 서버로부터 받은 응답을 해석하고, 화면에 표시함
   HTTP는 TCP/IP 기반으로 동작하는데, 클라이언트와 서버는 연결을 맺고 요청 및 응답을 주고 받는다.
