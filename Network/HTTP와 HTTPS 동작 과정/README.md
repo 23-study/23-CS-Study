@@ -8,7 +8,7 @@
   <details>
   <summary> 3way-handshaking </summary>
   <br>
-   3way-handshaking
+   3way-handshaking<br/>
   - Client > Server : TCP SYN <br/>
   - Server > Client : TCP SYN ACK <br/>
   - Client > Server : TCP ACK <br/>
