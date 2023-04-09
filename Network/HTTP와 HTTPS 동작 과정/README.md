@@ -56,4 +56,5 @@
   이렇게 하면 서버와 클라이언트 간의 통신이 암호화되기 때문에, 데이터의 무결성과 보안성이 보장됨
 
 
-https://kimmeh1.tistory.com/499
+### References
+[블로그 레퍼런스](https://kimmeh1.tistory.com/499)
