@@ -9,9 +9,9 @@
   <summary> 3way-handshaking </summary>
   <br>
    3way-handshaking
-  - Client > Server : TCP SYN
-  - Server > Client : TCP SYN ACK
-  - Client > Server : TCP ACK
+  - Client > Server : TCP SYN <br/>
+  - Server > Client : TCP SYN ACK <br/>
+  - Client > Server : TCP ACK <br/>
   
    ![http.png](http.png)
    <br/>
