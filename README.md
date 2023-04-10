@@ -96,19 +96,25 @@ Operating System(dir)
 - [동기화 객체의 종류](https://github.com/23-study/23-CS-Study/tree/main/Operating%20System/%EB%8F%99%EA%B8%B0%ED%99%94%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EC%A2%85%EB%A5%98)
 - [뮤텍스와 세마포어의 차이](https://github.com/23-study/23-CS-Study/tree/main/Operating%20System/%EB%AE%A4%ED%85%8D%EC%8A%A4%EC%99%80%20%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4%EC%9D%98%20%EC%B0%A8%EC%9D%B4)
 - [스케줄링](https://github.com/23-study/23-CS-Study/tree/main/Operating%20System/%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81)
+- [동기와 비동기]()
+- [프로세스 동기화]()
 
 ## :floppy_disk: DB
 - [데이터베이스 풀](https://github.com/23-study/23-CS-Study/tree/main/Database/Database%20POOL)
 - [정규화(1차 2차 3차 BCNF)](https://github.com/23-study/23-CS-Study/tree/main/Database/%EC%A0%95%EA%B7%9C%ED%99%94(1%EC%B0%A8%202%EC%B0%A8%203%EC%B0%A8%20BCNF))
 - [트랜잭션](https://github.com/23-study/23-CS-Study/tree/main/Database/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98)
-- 트랜잭션 격리 수준(Transaction Isolation Level)
-- Join
-- SQL injection
+- [트랜잭션 격리 수준(Transaction Isolation Level)](https://github.com/23-study/23-CS-Study/tree/main/Database/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%20%EA%B2%A9%EB%A6%AC%20%EC%88%98%EC%A4%80)
+- [Join](https://github.com/23-study/23-CS-Study/tree/main/Database/%EC%A1%B0%EC%9D%B8)
+- [SQL injection](https://github.com/23-study/23-CS-Study/tree/main/Database/SQL%20injection)
+- [Index란]()
+- [Statement와 PrepareStatement]()
 
 ## :satellite: Network
 - [OSI 7계층](https://github.com/23-study/23-CS-Study/tree/main/Network/OSI%207%EA%B3%84%EC%B8%B5)
 - [TCP/IP의 개념](https://github.com/23-study/23-CS-Study/tree/main/Network/TCP/IP%EC%9D%98%20%EA%B0%9C%EB%85%90)
 - [TCP와 UDP](https://github.com/23-study/23-CS-Study/tree/main/Network/TCP%EC%99%80%20UDP)
-- TCP와 UDP의 헤더 분석
-- TCP의 3-way-handshake와 4-way-handshake
-- HTTP와 HTTPS
+- [TCP와 UDP의 헤더 분석](https://github.com/23-study/23-CS-Study/tree/main/Network/TCP%EC%99%80%20UPD%EC%9D%98%20%ED%97%A4%EB%8D%94%20%EB%B6%84%EC%84%9D)
+- [TCP의 3-way-handshake와 4-way-handshake](https://github.com/23-study/23-CS-Study/tree/main/Network/TCP%EC%9D%98%203-way-handshake%EC%99%80%204-way-handshake)
+- [HTTP와 HTTPS](https://github.com/23-study/23-CS-Study/tree/main/Network/TCP%EC%9D%98%203-way-handshake%EC%99%80%204-way-handshake)
+- [HTTP 요청/응답 헤더]()
+- [HTTP와 HTTPS 동작 과정]()
