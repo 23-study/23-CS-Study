@@ -2,11 +2,11 @@
 virtual은 눈에 보이지 않지만 존재하는 것<br/>
 Windows와 Linux같은 운영체제에서 제공함 virtual page를 physical page로 mapping시켜주는 역할임<br/>
 사용하게 되면 결과적으로 Main memory를 Secondary storage에 대한 cash인 것 처럼 사용하게 됨<br/>
-
+<br/>
 #### Virual memory는 physical memory로부터 프로그래머 관점의 논리 메모리를 조각 조각 분리해 메인 메모리를 균일한 크기의 저장 공간으로 구성된 매우 큰 배열로 추상화시켜줌
 #### ->크기 제약으로부터 자유로워짐
 #### Virtual memory는 파일과 라이브러리의 공유를 쉽게 만들어주고 공유 메모리 구현을 가능하게 함
-
+<br/>
 ![virtual_memory](virtual_memory.png)
 
 사용하게 되는 동기
@@ -22,7 +22,7 @@ Windows와 Linux같은 운영체제에서 제공함 virtual page를 physical pag
 main memory capacity가 넘는 경우 : 프로그램의 꼭 사용되는 부분만 main memory에서 쓰고 가상으로 생각한 공간을 조각조각 
 운영체제가 내서 꼭 필요한 조각만 main memory에서 쓰고 가상공간에서 내가 원하는 프로그램을 짜면 되는 거다
 <br/>
-<br/>
+
 ### 가상메모리 구현 :
 가상 메모리는 프로세스가 실행되는 동안 프로세스가 사용하는 모든 메모리 영역을 물리적인 메모리보다 큰 가상 메모리 공간으로 할당한다.<br/>
 이때 프로세스가 사용하는 메모리 중 일부는 물리적 메모리에 저장되고, 일부는 디스크의 스왑 파일(Swap file)이나 페이지 파일(Page file)에 저장된다.<br/>
