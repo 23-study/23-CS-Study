@@ -51,6 +51,8 @@ CORS 요청은 요청 헤더와 응답 헤더를 통해 이루어진다.
     - Request와 서버 측에서 허용된 도메인 목록을 비교해 일치하면 `Access-Control-Allow-Origin` 헤더를 포함한 응답을 보내 CORS 요청이 이루어짐
     </details>
 
+<br>
+
 **요청 방법**
 
 1. Access-Control-Request-Method
