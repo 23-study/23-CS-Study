@@ -1,4 +1,4 @@
-### Virtual Memory란?
+### Virtual Memory란?<br/>
 virtual은 눈에 보이지 않지만 존재하는 것<br/>
 Windows와 Linux같은 운영체제에서 제공함 virtual page를 physical page로 mapping시켜주는 역할임<br/>
 사용하게 되면 결과적으로 Main memory를 Secondary storage에 대한 cash인 것 처럼 사용하게 됨<br/>
@@ -6,7 +6,7 @@ Windows와 Linux같은 운영체제에서 제공함 virtual page를 physical pag
 #### Virual memory는 physical memory로부터 프로그래머 관점의 논리 메모리를 조각 조각 분리해 메인 메모리를 균일한 크기의 저장 공간으로 구성된 매우 큰 배열로 추상화시켜줌
 #### ->크기 제약으로부터 자유로워짐
 #### Virtual memory는 파일과 라이브러리의 공유를 쉽게 만들어주고 공유 메모리 구현을 가능하게 함
-<br/>
+
 ![virtual_memory](virtual_memory.png)
 
 사용하게 되는 동기
