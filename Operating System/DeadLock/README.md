@@ -6,9 +6,9 @@
 
 ![DeadLock.jpg](DeadLock.jpg)
 
-![DeadLock2.jpg](DeadLock2.jpg)
+![DeadLock3.jpg](DeadLock3.jpg)
 </br>
-<P1,P2는 각각 상대가 점유 중엔 R1,R2를 요구하고 있다>
+<P1,P2는 각각 상대가 점유 중인 R1,R2를 요구하고 있다>
 
 ## DeadLock의 발생조건
 
