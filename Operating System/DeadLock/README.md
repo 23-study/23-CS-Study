@@ -46,6 +46,9 @@ Safe sequence, Safe state
 
 잘 알려진 교착 상태 회피 알고리즘으로 Dijkstra의 은행원 알고리즘이 있다
 
+* Dijkstra 은행원 알고리즘
+  운영체제는 안전상태를 유지할 수 있는 요구만을 수락하고 불안전 상태를 초래할 사용자의 요구는 나중에 만족될 수 있을 때까지 계속 거절한다 
+
 
 ## DeadLock Recovery
   프로세스를 무기한 정지시킨 후, 시스템에서 제거하고 다음에 다시 계속하도록 하는 것
@@ -60,5 +63,9 @@ Safe sequence, Safe state
   rollback 정책
   starvation 문제의 해결책
 
-참고사이트
-[참고사이트1](https://velog.io/@hamsik2rang/OS-%EA%B5%90%EC%B0%A9-%EC%83%81%ED%83%9CDeadlock)
+
+##References
+[블로그 레퍼런스1](https://velog.io/@hamsik2rang/OS-%EA%B5%90%EC%B0%A9-%EC%83%81%ED%83%9CDeadlock)
+[블로그 레퍼런스2](https://jwprogramming.tistory.com/12)
+[블로그 레퍼런스3](https://chanhuiseok.github.io/posts/cs-2/)
+
