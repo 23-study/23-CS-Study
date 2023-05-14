@@ -5,6 +5,9 @@
 - 둘 이상의 프로세스가 다른 프로세스가 점유하고 있는 자원을 서로 기다릴 때 무한 대기에 빠지는 상황
 
 ![DeadLock.jpg](DeadLock.jpg)
+
+![DeadLock2.jpg](DeadLock2.jpg)
+</br>
 <P1,P2는 각각 상대가 점유 중엔 R1,R2를 요구하고 있다>
 
 ## DeadLock의 발생조건
