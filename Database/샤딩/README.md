@@ -11,6 +11,7 @@
 ![Sharding1.png](Sharding1.png)
 
 
+</br>
 [사용 배경]
 애플리케이션이 성장함에 따라 애플리케이션 사용자 수와 애플리케이션에 저장되는 데이터의 양도 시간이 갈수록 증가한다
 데이터 볼륨이 너무 커지고 애플리케이션을 사용하여 동시에 정보를 읽거나 저장하려고 하는 사용자가 너무 많아지면 데이터베이스에서 병목 현상이 발생한다
@@ -60,6 +61,5 @@
     
 
 Reference
-[블로그 레퍼런스1]()
-[블로그 레퍼런스2]()
-[블로그 레퍼런스3]()
+[블로그 레퍼런스1](https://aws.amazon.com/ko/what-is/database-sharding/)
+[블로그 레퍼런스2](https://nesoy.github.io/articles/2018-05/Database-Shard)
