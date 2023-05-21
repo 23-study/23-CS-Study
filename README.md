@@ -33,7 +33,7 @@ DB, OS, 네트워크 스터디
 <summary>:white_check_mark: 스터디 규칙</summary>
 <div markdown="1">
     <ul>
-           <li>매주 브랜치 파서 아래와 같은 형식으로 담당 파트 내용 올리고 PR 올리기</li>
+           <li>매주 본인의 브랜치에 아래와 같은 형식으로 담당 파트 내용 올리고 PR 올리기</li>
             <pre><code>
 Operating System(dir)
 |____README.md (과목당 기본 마크다운 파일)
@@ -43,7 +43,7 @@ Operating System(dir)
              |____img1.png
              |____img2.png
              </code></pre>
-           <li>브랜치명은 <code>Week#-깃헙아이디</code> -> 예시: <code>Week1-ssssujini99</code></li>
+           <li>브랜치명은 <code>깃헙아이디</code> -> 예시: <code>ssssujini99</code></li>
            <li>PR명은 <code>Week#-제목</code> -> 예시: <code>Week1-트랜잭션</code></li>
            <li>커밋명은 <code>Docs: #주차 과목 - 주제</code> -> 예시: <code>Docs: 1주차 Operating System - 스레드 안전</code></li>
     </ul>
